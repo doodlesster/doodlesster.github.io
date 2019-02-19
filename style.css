@@ -43,6 +43,11 @@
     opacity: 1;
 }
 
+.w-100 {
+    border-radius: 30%;
+    margin-bottom: 5%
+}
+
 
 /* START Contact Me */
 #ContactMe .container {
