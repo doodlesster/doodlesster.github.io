@@ -7,37 +7,24 @@
     padding: 1%
 }
 
-.container-fluid #description {
-    font-family: 'Montserrat', sans-serif;
-}
-
-/* Header Picture */
 .avatar {
     height: 150px;
     border-radius: 50%;
 }  
-/* END Header banner */
 
 /* General */
-#navbar, #HeaderBanner, #AboutMe, #Projects, #OtherLinks, #ContactMe {
+#navbar, #headerBanner, #projects, #otherLinks, #contactMe, .container-fluid #description {
     font-family: 'Montserrat', sans-serif;
 }
 
 /* START Project Menu */
-.button {
-    height: 450px;
+#Projects {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-/* END Project Menu */
-
-.container-fluid .row #SocialMedia {
-    padding: 0%;
-}
-
-
-
-/* Animeate Project Menu Section */
-/* .ProjectMenu {
+/* Animate Project Menu Section */
+.middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -48,22 +35,26 @@
     text-align: center;
 }
 
-.button {
-    height: 100px;
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-
-.container:hover .buttons {
+.picture-container:hover img{
     opacity: 0.3;
 }
 
-.container:hover .ProjectMenu {
+.picture-container:hover .middle{
     opacity: 1;
-} */
+}
+
+
+/* START Contact Me */
+#ContactMe .container {
+    background-color: lightgrey;
+    padding: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%
+}
+
+/* START Social Media */
+.container-fluid .row #SocialMedia {
+    padding: 0%;
+}
 
 

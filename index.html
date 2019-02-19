@@ -21,7 +21,7 @@
 
 <!--Sticky NavBar Code-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Skip to the bits you care about --></a>
+        <a class="navbar-brand" href="#">Skip to the parts you care about!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,6 +29,7 @@
         <div class="navbar-nav">
             <a class="nav-item nav-link active" href="#AboutMe">About Me <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#Projects">Projects</a>
+            <a class="nav-item nav-link" href="#ContactMe">Contact Me</a>
             <a class="nav-item nav-link" href="#OtherLinks">Other Links</a>
             <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
         </div>
@@ -37,7 +38,7 @@
 
 
 <!--Header-->
-<header id="HeaderBanner">
+<header id="headerBanner">
     <div class="container-fluid">
         <div class="row">
             <h1>Denise Teo...Story of a Wannabe Coder</h1>
@@ -60,58 +61,95 @@
     </div>
 </header>
 
-
-
-<br/>
-<br/>
-
 <!--Projects-->
-<section id="Projects">
-    <div class="container-fluid">
-        <h2>Projects</h2>
-        <div class="d-flex flex-row flex-wrap align-self-center" id="ProjectMenu">
-            <div class="p-2">
-                <img src="images/Windmill.jpg" alt="Windmill" class="button"/>
-            </div> 
-            <div class="p-2">
-                <img src="images/christmas tree.jpg" alt= "christmas tree" class="button"/>
-            </div> 
-            <div class="p-2">
-                <img src="images/dog.jpg" alt="dog" class="button"/> 
-            </div> 
-            <div class="p-2">
-                <img src="Images/lady.jpg"alt="lady"class="button"/>
+<section id="projects">
+    <H3><strong>Projects</strong></H3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 picture-container">
+                <img src="images/Windmill.jpg" class="w-100" alt="Windmill"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Windmill</strong></h3></div>
+                </div>
             </div>
-            <div class="p-2">
-                <img src="Images/ladybug.jpg" alt="ladybug" class="button"/>
+            <div class="col-md-4 picture-container">
+                <img src="images/christmas tree.jpg" class="w-100" alt="Christmas Tree"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Christmas Tree</strong></h3></div>
+                </div>
             </div>
-            <div class="p-2">
-                <img src="Images/lion.jpg"alt="lion" class="button"/>
+            <div class="col-md-4 picture-container">
+                <img src="images/dog.jpg" class="w-100" alt="Dog"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Dog</strong></h3></div>
+                </div>
             </div>
-            <div class="p-2">
-                <img src="Images/owl.jpg" alt="owl" class="button"/>
+            <div class="col-md-4 picture-container">
+                <img src="images/lady.jpg" class="w-100" alt="Lady"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Lady</strong></h3></div>
+                </div>
             </div>
-            <div class="p-2">
-                <img src="Images/penguin.jpg"alt="penguing" class="button"/>
+            <div class="col-md-4 picture-container">
+                <img src="images/ladybug.jpg" class="w-100" alt="Ladybug"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Ladybug</strong></h3></div>
+                </div>
+            </div>
+            <div class="col-md-4 picture-container">
+                <img src="images/lion.jpg" class="w-100" alt="Lion"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Lion</strong></h3></div>
+                </div>
+            </div>
+            <div class="col-md-4 picture-container">
+                <img src="images/owl.jpg" class="w-100" alt="Owl"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Owl</strong></h3></div>
+                </div>
+            </div>
+            <div class="col-md-4 picture-container">
+                <img src="images/penguin.jpg" class="w-100" alt="Penguin"/>
+                <div class="middle">
+                    <div class="text"><h3><strong>Penguin</strong></h3></div>
+                </div>
+            </div>
             </div>
         </div>
-</div>
+    </div>
 </section>
-
-<br/>
-<br/>
 
 
 <!--Contact Me Form-->
-<section id="ContactMe">
+<section id="contactMe">
     <div class="container">
-        Leave me a message! 
-
+        <h3> Leave me a message, I promise I'll get back to you as soon as I can</h3>
+        <br/>
+        <br/>
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">What would you like to know?</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                <option>I want to work with you!</option>
+                <option>I want to have a general chat with you</option>
+                <option>I want find out more about your work</option>
+                <option>Something completely different!</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Tell me more!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </form>
     </div>
 </section>
 
 <!--Other Links-->
-<section id="OtherLinks">
+<section id="otherLinks">
     <div class="container-fluid">
         <div class="row">
             <p><h4>Want to know more about me?</h4></p>
